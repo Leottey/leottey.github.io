@@ -1,0 +1,6 @@
+body, html {
+    margin: 0px;
+}
+canvas {
+    outline: 2px solid black;
+}
