@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 *, :after, :before {
     box-sizing: border-box;
 }
 body, html, h1 {
     margin: 0px;
+    font-family: "JoseFin Sans", sans-serif;
 }
 body {
     background-color: #1a1a1a;
