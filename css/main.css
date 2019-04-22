@@ -1,5 +1,33 @@
-body, html {
+*, :after, :before {
+    box-sizing: border-box;
+}
+body, html, h1 {
     margin: 0px;
+}
+body {
+    background-color: #1a1a1a;
+    border: 10px solid #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+}
+.content {
+    position: relative;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 40px);
+}
+.border {
+  
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    border: 4px dashed #fff;
 }
 canvas {
     outline: 2px solid black;
