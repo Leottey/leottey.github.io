@@ -6,6 +6,7 @@ body, html, h1 {
     margin: 0px;
     font-family: "JoseFin Sans", sans-serif;
     
+    cursor: url("../cursor.png"), auto;
 }
 body {
     background-color: #1a1a1a;
@@ -15,14 +16,12 @@ body {
     line-height: 1.5;
     color: #fff;
     text-align: left;
-
-    
 }
 .content {
     position: relative;
 }
 .content:hover{
-    cursor: url("../cursor.png"), auto;
+    
 } 
 .main {
     display: flex;
