@@ -20,8 +20,10 @@ body {
 }
 .content {
     position: relative;
-    cursor: url("../cursor.png"), auto;
 }
+.content:hover{
+    cursor: url("../cursor.png"), auto;
+} 
 .main {
     display: flex;
     align-items: center;
