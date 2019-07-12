@@ -5,6 +5,7 @@
 body, html, h1 {
     margin: 0px;
     font-family: "JoseFin Sans", sans-serif;
+    cursor: url("../cursor.png");
 }
 body {
     background-color: #1a1a1a;
