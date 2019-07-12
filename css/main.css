@@ -1,12 +1,15 @@
+@font-face {
+    font-family: "04B_03__";
+    src: url("fonts/04B_03__.TTF");
+    
+}
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 *, :after, :before {
     box-sizing: border-box;
 }
 body, html, h1 {
     margin: 0px;
-    font-family: "JoseFin Sans", sans-serif;
-    
-    cursor: url("../cursor.png"), auto;
+    font-family: "04B_03__", "JoseFin Sans", sans-serif;
 }
 body {
     background-color: #1a1a1a;
@@ -20,9 +23,6 @@ body {
 .content {
     position: relative;
 }
-.content:hover{
-    
-} 
 .main {
     display: flex;
     align-items: center;
