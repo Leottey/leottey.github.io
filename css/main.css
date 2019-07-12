@@ -16,10 +16,11 @@ body {
     color: #fff;
     text-align: left;
 
-    cursor: url("../cursor.png"), auto;
+    
 }
 .content {
     position: relative;
+    cursor: url("../cursor.png"), auto;
 }
 .main {
     display: flex;
