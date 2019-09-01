@@ -1,0 +1,77 @@
+#projects {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-tile {
+    min-width: 300px;
+    width: 30%;
+    max-width: 960px;   
+    text-align: center;
+    background-color: var(--color-3);
+}
+.category-tags {
+    padding: 25px;
+    color: var(--color-1);
+    text-align: left;
+}
+.category-tags span {
+    display: inline-block;
+    padding: 5px;
+    margin-right:2px;
+}
+/* Tags */
+.HTML {
+    background-color: hsla(360, 96%, 45%, 1);
+}
+.CSS {
+    background-color: hsla(225, 69%, 72%, 1);
+}
+.FCC {
+    background-color: hsla(59, 96%, 40%, 1);
+}
+.tile-content {
+    padding: 5px;
+}
+.tile-content .project-img img {
+    width: 95%;
+    margin: auto;
+}
+.project-links {
+    height: 10%;
+    padding: 15px 5px;
+}
+.project-links a:hover {
+    transform: scale(1.1)
+}
+.project-links .project-link-view a {
+    display: inline-block;
+    padding: 10px;  
+    margin-right: 5px;
+
+    border-radius: 30px;
+    border: 1px solid var(--color-4);
+    color: var(--color-4);
+}
+.project-links .project-link-code a {
+    display: inline-block;
+    padding: 10px;  
+    margin-left: 5px;
+
+    border-radius: 30px;
+    border: 1px solid var(--color-4);
+    background-color: var(--color-4);
+    color: var(--color-1);
+
+    font-weight: bold;
+}
+/* FreeCodeCamp */
+#welcome-section {
+    height: 100vh;;
+}
+#navbar {
+    width: 100%;
+    background-color: var(--color-1);
+    position: fixed;
+    top: 0;
+}

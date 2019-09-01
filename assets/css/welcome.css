@@ -6,6 +6,7 @@ h2 {margin:0;}
 #svg {
     min-width: 350px;
     width: 45%;
+    height: 50vh;
     margin: auto;
 }
 #title-container {
@@ -59,7 +60,7 @@ img {
     border-radius: 50%;
 }
 /* Desktop */ 
-@media (min-width: 500px) {
+@media (min-width: 720px) {
     #welcome {
         height: 100%;
         flex-direction: row;
