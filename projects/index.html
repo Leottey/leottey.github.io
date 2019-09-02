@@ -14,8 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    
+    <script src="../assets/js/transition.js"></script>
 </head>
 <body>
     <div>
@@ -124,19 +123,7 @@
                 </a>
             </p>
         </div>
-    <script>
-    $(document).ready(function() {  
-        $('body').fadeIn(200);
-        $('.transition').click(function(event) {
-            event.preventDefault();
-            newLocation = this.href;
-            $('body').fadeOut(200, newpage);
-        });
-        function newpage() {
-            window.location = newLocation;
-        }
-    });
-    </script>
+    
     </footer>
 </body>
 </html>
