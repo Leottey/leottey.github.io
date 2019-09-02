@@ -6,21 +6,27 @@
 .project-tile {
     min-width: 300px;
     width: 30%;
-    max-width: 960px;   
+    max-width: 700px; 
+    margin: 20px auto;  
     text-align: center;
     background-color: var(--color-3);
 }
+/* Tags */
 .category-tags {
     padding: 25px;
     color: var(--color-1);
     text-align: left;
 }
-.category-tags span {
+.category-tags span, 
+#tags span {
     display: inline-block;
     padding: 5px;
     margin-right:2px;
 }
-/* Tags */
+#tags {
+    padding: 2.5%;
+    color: var(--color-1);
+}
 .HTML {
     background-color: hsla(360, 96%, 45%, 1);
 }
@@ -28,14 +34,27 @@
     background-color: hsla(225, 69%, 72%, 1);
 }
 .FCC {
-    background-color: hsla(59, 96%, 40%, 1);
+    background-color: hsla(120, 97%, 25%, 1);
+}
+.JavaScript {
+    background-color: hsla(59, 96%, 60%, 1);
 }
 .tile-content {
-    padding: 5px;
+    padding: 5px 5px 20px 5px;
+    -webkit-box-shadow: var(--shadow-2);
+    -moz-box-shadow: var(--shadow-2);
+    box-shadow: var(--shadow-2);
 }
-.tile-content .project-img img {
+.project-title {
+    text-decoration: underline;
+}
+.project-img {
     width: 95%;
+    outline: 1px solid var(--color-2);
     margin: auto;
+}
+.project-img img {
+    width: 100%;
 }
 .project-links {
     height: 10%;
@@ -74,4 +93,12 @@
     background-color: var(--color-1);
     position: fixed;
     top: 0;
+}
+@media (min-width: 1300px) {
+    #page-title {
+        font-size: 5em;
+    }
+    body {
+        font-size: 1.5em;
+    }
 }
