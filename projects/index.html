@@ -15,9 +15,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script src="../assets/js/loader.js"></script>
+    
 </head>
-<body >
+<body>
     <div>
     <header id="navbar">
         <div id="logo"><a class="transition" href="../">Leottey</a></div>
@@ -124,9 +124,19 @@
                 </a>
             </p>
         </div>
+    <script>
+    $(document).ready(function() {  
+        $('body').fadeIn(500);
+        $('.transition').click(function(event) {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(500, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+        }
+    });
+    </script>
     </footer>
-    <!-- FreeCodeCamp 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    -->
 </body>
 </html>

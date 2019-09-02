@@ -15,7 +15,6 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<script src="assets/js/loader.js"></script>
  </head>
 	<body>
 		<div id="welcome">
@@ -34,11 +33,24 @@
 &gt; some code
 &gt; 
 &gt; Github: <a href="https://github.com/Leottey" target="_blank">https://github.com/Leottey</a> 
-&gt; Portfolio: <a href="/projects/" target="_blank" class="transition">https://joeljs.net/projects/</a> 
-&gt; CV: <a href="/cv/" target="_blank" class="transition">https://joeljs.net/cv/</a> 
+&gt; Portfolio: <a href="/projects/" class="transition">https://joeljs.net/projects/</a> 
+&gt; CV: <a href="/cv/" class="transition">https://joeljs.net/cv/</a> 
 &gt; _		
 				</pre></code>
 			</div>		
 		</div>
+	<script>
+	$(document).ready(function() {  
+		$('body').fadeIn(500);
+		$('.transition').click(function(event) {
+			event.preventDefault();
+			newLocation = this.href;
+			$('body').fadeOut(500, newpage);
+		});
+		function newpage() {
+			window.location = newLocation;
+		}
+	});
+	</script>
 	</body>
 </html>
