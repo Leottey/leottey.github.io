@@ -84,16 +84,6 @@
 
     font-weight: bold;
 }
-/* FreeCodeCamp */
-#welcome-section {
-    height: 100vh;;
-}
-#navbar {
-    width: 100%;
-    background-color: var(--color-1);
-    position: fixed;
-    top: 0;
-}
 @media (min-width: 1300px) {
     #page-title {
         font-size: 5em;
