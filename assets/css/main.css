@@ -50,9 +50,14 @@ svg {
 .title {
     color: var(--color-4);
 }
+#footer-links {
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: center;
+}
 .social-icon {
     display: inline-block;
-    fill: var(--color-4);
+    fill: var(--color-2);
     width: 50px;
     height: 50px;
     margin: 10px 10px;
@@ -94,7 +99,7 @@ ul {
 #Welcome-section {
     background: linear-gradient(rgba(16,17,25,.7),rgba(16,17,25,.7)) repeat-x top/100% 100%,url(../img/hero-1.jpg) 50%/cover no-repeat;
     color: white;
-    padding: 50px 0;
+    padding: 5em 0;
     text-align: center;
     display: flex;
     justify-content: center;
