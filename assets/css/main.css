@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-@font-face {
-    font-family: SIMPLIFICA;
-    src: url("fonts/SIMPLIFICA.ttf");
-  }
-
-  @keyframes roll {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(20deg);
-    }
-  }
 :root {
     --color-1: hsla(233, 23%, 8%, 1);
     --color-2: hsla(55, 1%, 45%, 1);
