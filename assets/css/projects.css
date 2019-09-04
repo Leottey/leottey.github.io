@@ -17,53 +17,30 @@
     color: var(--color-1);
     text-align: left;
 }
-.category-tags span, 
-#tags span {
+.category-tags span {
     display: inline-block;
     padding: .5em;
     margin: 0 0 0 1em;
-}
-#tags {
-    padding: 1%;
-}
-#tags span {
-    cursor: pointer;
 }
 .HTML {
     border: 1px solid  hsla(360, 96%, 45%, 1);
     color: hsla(360, 96%, 45%, 1);
     border-radius: 30px;
 }
-#tags .HTML:hover {
-    background-color: hsla(360, 96%, 45%, 1);
-    color: var(--color-1);
-}
 .CSS {
     border: 1px solid  hsla(225, 69%, 72%, 1);
     color: hsla(225, 69%, 72%, 1);
     border-radius: 30px;
-}
-#tags .CSS:hover {
-    background-color: hsla(225, 69%, 72%, 1);
-    color: var(--color-1);
 }
 .FCC {
     border: 1px solid  hsla(120, 97%, 25%, 1);
     color: hsla(120, 97%, 25%, 1);
     border-radius: 30px;
 }
-#tags .FCC:hover {
-    background-color: hsla(120, 97%, 25%, 1);
-    color: var(--color-1);
-}
 .JavaScript { 
     border: 1px solid  hsla(59, 96%, 60%, 1);
     color: hsla(59, 96%, 60%, 1);
     border-radius: 30px;
-}
-#tags .JavaScript:hover {
-    background-color: hsla(59, 96%, 60%, 1);
-    color: var(--color-1);
 }
 .tile-content {
     padding: 5px 5px 20px 5px;
