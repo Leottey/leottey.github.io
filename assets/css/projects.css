@@ -50,7 +50,7 @@
 }
 .project-title {
     text-decoration: underline;
-    height: 15%;
+    /* height: 15%;*/
 }
 .project-img {
     width: 95%;
