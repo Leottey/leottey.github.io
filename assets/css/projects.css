@@ -1,10 +1,9 @@
 #projects {
-    padding: 25px;
     display: flex;
     flex-wrap: wrap;
 }
 .project-tile {
-    min-width: 300px;
+    min-width: 280px;
     width: 30%;
     max-width: 700px; 
     margin: 20px auto;  
@@ -22,14 +21,16 @@
     padding: .5em;
     margin: 0 0 0 1em;
 }
-.HTML {
+.edmax {
     border: 1px solid  hsla(360, 96%, 45%, 1);
-    color: hsla(360, 96%, 45%, 1);
+    background-color: hsla(360, 96%, 45%, 1);
+    color: var(--color-3);
     border-radius: 30px;
 }
-.CSS {
+.Photoshop {
     border: 1px solid  hsla(225, 69%, 72%, 1);
-    color: hsla(225, 69%, 72%, 1);
+    background-color: hsla(225, 69%, 72%, 1);
+    color: var(--color-3);
     border-radius: 30px;
 }
 .FCC {

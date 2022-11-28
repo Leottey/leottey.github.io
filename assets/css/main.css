@@ -14,6 +14,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color-1);
     color: var(--color-2);
+    width: 100%;
     scroll-behavior: smooth;
 }
 /* For clean fadeIn FadeOut transitions*/
@@ -44,13 +45,13 @@ svg {
 }
 .social-icon {
     display: inline-block;
-    fill: var(--color-2);
+    fill: var(--color-4);
     width: 50px;
     height: 50px;
     margin: 10px 10px;
 }
 .social-icon:hover {
-    fill:white;
+    fill: var(--color-2);
 }
 /* nav */
 ul {
@@ -63,39 +64,50 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    color: var(--color-5);
 }
 #navbar #logo {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 5px;
-    padding: 10px 24px;
+    padding: 10px;
+}
+#navbar #logo img {
+    max-width: 64px;
+}
+#navbar ul {
+    height: 100%;
 }
 #navbar nav a {
     display: block;
     font-size: 1.5em;
     font-weight: 500;
-    padding: 15px 15px;
+    padding: 0px 15px;
     transition: 0.4s;
+    line-height: 84px;
 }
 #navbar nav a:hover {
-    background-color: var(--color-2);
+    background-color: var(--color-5);
     color: var(--color-1);
 }
 /* Wecolme section */
 #welcome-section {
-    background: linear-gradient(rgba(16,17,25,.7),rgba(16,17,25,.7)) repeat-x top/100% 100%,url(../img/hero-1.jpg) 50%/cover no-repeat;
-    color: white;
+    background-color: var(--color-3);
+    color: var(--color-4);
     padding: 5em 0;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
+}
+#welcome-section p {
+    max-width: 500px;
 }
 #page-title {
-    font-size: 4em;
-    border-bottom: 7px double white;
-    margin: 10px
+    font-size: 2em;
+    border-bottom: 3px double var(--color-4);
+    margin: 20px 10px;
 }
 .waves {
     position: relative;
